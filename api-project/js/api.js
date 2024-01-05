@@ -1,4 +1,4 @@
-const URL = "https://collectionapi.metmuseum.org/public/collection/v1/objects/20"
+const URL = "https://emojihub.yurace.pro/api/all"
 
 async function getData(URL) {
     try {
