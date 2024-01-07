@@ -1,0 +1,108 @@
+html,
+body, 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+:root {
+    /*typography*/
+    --h1: 7.594rem;
+    --h2: 3.5rem;
+    --h3: 3.375rem;
+    --h4: 2.25rem;
+    --h5: 1.5rem;
+}
+
+h1 {
+    font-size: var(--h1);
+    text-align: center;
+    padding: var(--h4);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5%;
+    column-gap: 2rem;
+
+}
+
+.emojiTitle {
+    font-size: var(--h4);
+    text-align: center;
+}
+
+.emojiImage {
+    font-size: var(--h3);
+    text-align: center;
+    padding: var(--h4);
+}
+
+.whalenTitle {
+    font-size: var(--h4);
+    text-align: center;
+}
+
+.whalenImage {
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+#name {
+    font-size: var(--h5);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#group {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    
+}
+
+#emojis {
+    display: flex;
+    width: 100vw;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: var(--h2);
+    text-align: center;
+}
+
+
+.btn{
+    background-color: #fffff0;
+    padding: 0.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 1rem;
+    transition: all 0.2s  
+    
+}
+
+.btn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.wholeThing{
+    border: solid black 0.5rem;
+    margin: var(--h2);
+    padding: var(--h2);
+    border-radius: 1rem;
+    width: 20%;
+    text-wrap: wrap;
+}
+
+
+
