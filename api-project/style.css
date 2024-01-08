@@ -7,6 +7,11 @@ body,
     font-size: 62.5%;
 }
 
+body {
+    background-color:rgb(183, 183, 238);;
+}
+
+
 :root {
     /*typography*/
     --h1: 7.594rem;
@@ -20,26 +25,37 @@ h1 {
     font-size: var(--h1);
     text-align: center;
     padding: var(--h4);
+    padding-bottom: 5rem;
+    background-color: rgb(115, 115, 207);
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5%;
+    /* margin: 5%; */
     column-gap: 2rem;
+    background-color: rgb(183, 183, 238);
+   
+
 
 }
 
 .emojiTitle {
     font-size: var(--h4);
     text-align: center;
+    background-color: #fffff0;
+
 }
 
 .emojiImage {
     font-size: var(--h3);
     text-align: center;
-    padding: var(--h4);
+    padding-bottom: var(--h4);
+    background-color: #fffff0;
+    
+    
+    
 }
 
 .whalenTitle {
@@ -50,6 +66,8 @@ h1 {
 .whalenImage {
     height: 20rem;
     border-radius: 1rem;
+    margin-left: 1.5rem;
+    
 }
 
 #name {
@@ -59,20 +77,23 @@ h1 {
 }
 
 #group {
-    font-size: 1rem;
+    font-size: var(--h5);
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 2rem;
     
 }
 
 #emojis {
     display: flex;
     width: 100vw;
+    padding-top: 3rem;
     /* align-items: center; */
     justify-content: center;
     font-size: var(--h2);
     text-align: center;
+    background-color: rgb(183, 183, 238);
 }
+
 
 
 .btn{
@@ -84,8 +105,6 @@ h1 {
     padding-left: 3rem;
     padding-right: 3rem;
     border-radius: 1rem;
-    transition: all 0.2s  
-    
 }
 
 .btn:hover{
@@ -102,7 +121,21 @@ h1 {
     border-radius: 1rem;
     width: 20%;
     text-wrap: wrap;
+    background-color: #fffff0;
+    
 }
 
 
+@media screen and (max-width: 1000px) {
+    .wholeThing{
+        width: 40%;
+    }
+  }
+
+
+  @media screen and (max-width: 813px) {
+    .wholeThing{
+        width: 100%;
+    }
+  }
 

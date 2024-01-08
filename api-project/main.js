@@ -24,11 +24,11 @@ async function getData(URL) {
           
           ` 
           <div class="wholeThing">
-          <h3 class="emojiTitle">Normal People:</h3>
-          <h1 class="emojiImage">${x.htmlCode}</h1>
+          <h2 class="emojiTitle">Normal People:</h2>
+          <h3 class="emojiImage">${x.htmlCode}</h3>
 
-          <h3 class="whalenTitle">Mike Whalen:</h3>
-          <img src="https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg" alt="image of whalen" class="whalenImage">
+          <h4 class="whalenTitle">Mike Whalen:</h4>
+          <img src="https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg" alt= "Michael Whalen SITHS Teacher" class="whalenImage">
 
           <p id= "name">Name: ${x.name} </p>
           <p id= "group">Group: ${x.group}</p>
